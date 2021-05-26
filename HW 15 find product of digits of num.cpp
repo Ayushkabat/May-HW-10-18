@@ -8,8 +8,8 @@ int main(){
 	
 	//
 	
-	for(cin>>num;num>0;num = num%10){
-		pro += pro* (num%10);
+	for(cin>>num;num>0;num = num/10){
+		pro = pro* (num%10);
 	}
 	cout<<"Pro of numbers : "<<pro<<endl;
 	
